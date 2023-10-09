@@ -13,8 +13,6 @@ const cryptoSlice = createSlice({
   initialState,
   reducers: {
     setCryptoData: (state, action) => {
-        console.warn(action.payload.results);
-        
       state.cryptoData = action.payload.results;
       state.totalPages = Math.ceil(action.payload.count / state.resultsPerPage); // 20 items per page
     },
