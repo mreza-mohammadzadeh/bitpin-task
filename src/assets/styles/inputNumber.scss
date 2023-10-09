@@ -1,0 +1,90 @@
+@import './variables/_variables.scss';
+
+.ant-input-number-input-handler-wrap {
+    display: none !important;
+}
+
+.customInputNumber {
+    border-radius: 5px !important;
+    background-color: $colorNeutral-100 !important;
+    border-color: $colorNeutral-300 !important;
+    color: $colorPrimary !important;
+
+    // width: fit-content !important;
+}
+.customInputNumber > div > input{
+    height: 30px;
+    direction: rtl;
+
+}
+.customInputNumber:focus, .ant-input-number-focused {
+    border-color: $colorNeutral-500 !important;
+    box-shadow: none !important;
+}
+
+.ant-input-number-affix-wrapper-focused.customInputNumber {
+    box-shadow: none !important;
+    /* border: none !important; */
+}
+
+
+.customInputNumber .ant-input-number-input-disabled {
+    border-color: $colorRed !important;
+    background-color: $color121 !important;
+}
+
+
+.customInputNumber:hover {
+    border-color: $colorNeutral-500 !important;
+    box-shadow: 0 0 0 1px $colorNeutral-500 !important;
+}
+
+.ant-form-item-has-error .customInputNumber {
+    border: 1px solid $colorSecondary-80 !important;
+    box-shadow: 0 0 0 2px $color125 !important;
+
+}
+.customInputNumber::placeholder {
+    color: $colorRed !important;
+    font-size: 13px;
+}
+
+.customInputNumber .ant-input-number-input {
+    background-color: transparent !important;
+    color: $colorPrimary !important;
+}
+
+
+.customInputNumber .ant-input-number-input:-webkit-autofill {
+    background-color: transparent !important;
+}
+
+.customInputNumber .ant-input-number-input:autofill {
+    background-color: transparent !important;
+}
+
+
+.customClearIcon path {
+    fill: $colorNeutral-300 !important;
+}
+.customClearIcon {
+    position: absolute;
+    left: 10px;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    background-color: $colorNeutral-200 !important;
+    border-radius: 20px;
+    z-index: 999;
+}
+.customInputNumber:hover+ .customClearIcon ,.customClearIcon:hover {
+    background-color: $colorBlue !important;
+    transition:ease-out 100ms  !important;
+}
+
+.borderRadiusRight {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}

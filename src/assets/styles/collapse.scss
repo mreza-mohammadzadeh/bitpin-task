@@ -1,0 +1,31 @@
+@import '../styles/variables/_variables.scss';
+
+.customCollapse {
+    border: none !important;
+    // border-bottom: 1px solid $colorNeutral-300;
+}
+.customCollapse .ant-collapse-item-active{
+    box-shadow: 0px 1px 10px rgba(20, 39, 57, 0.1) !important;
+}
+.radiusCustomCollapse {
+}
+
+.customCollapse .ant-collapse-header {
+    padding: 10px 5px !important;
+    
+}
+.borderCustomCollapse .ant-collapse-header{
+    border-bottom: 1px solid $colorNeutral-300 !important;
+}
+.borderCustomCollapse .ant-collapse-item{
+    border-radius: 10px !important;
+    
+}
+.customCollapse .ant-collapse-content-box {
+    padding: 0px !important;
+}
+
+.customCollapse .ant-collapse-arrow {
+    left: 0 !important;
+    right: auto !important;
+}

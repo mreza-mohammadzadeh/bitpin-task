@@ -1,0 +1,35 @@
+@import '../styles/variables/_variables.scss';
+
+.customCollapseReports {
+    @include shadow-option7;
+    border-bottom: 1px solid #FA8C16;
+    border-radius: 10px;
+}
+.customCollapseReports .ant-collapse-item-active{
+    // box-shadow: 0px 1px 10px rgba(20, 39, 57, 0.1) !important;
+    // border-radius: 5px 5px 0px 0px !important; 
+}
+
+.customCollapseReports .ant-collapse-header {
+    padding: 10px 10px !important;
+    display: block !important;
+}
+.borderCustomCollapse .ant-collapse-header{
+    // border-bottom: 1px solid $colorNeutral-300 !important;
+}
+.customCollapseReports .ant-collapse-content-box {
+    // padding: 0px !important;
+}
+
+.customCollapseReports .ant-collapse-arrow {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.customCollapseReports .ant-collapse-arrow  {
+    // color: $colorNeutral-700 !important;
+    position: absolute !important;
+    top: 20px !important;
+}
+
+.customCollapseReports .ant-collapse-icon-position-right>.ant-collapse-item>.ant-collapse-header .ant-collapse-arrow {}

@@ -1,0 +1,1 @@
+export const ON_CHANGE_HOME = 'ON_CHANGE_HOME'

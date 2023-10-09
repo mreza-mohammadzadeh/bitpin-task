@@ -1,0 +1,24 @@
+.container {
+    z-index: 99999999;
+    position: fixed !important;
+    // background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 100px;
+    margin: auto;
+    width: 150px;
+    border-radius: 10px;
+    left: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important
+}
+
+.text_loadin {
+    font-size: 16px;
+    align-self: center;
+    color: #000 !important;
+    text-align: center;
+    margin-top: 5px;
+}
